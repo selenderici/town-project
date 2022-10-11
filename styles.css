@@ -92,6 +92,10 @@ p {
     border-top: 2px solid #757bc8;
 }
 
+#card:hover {
+    background-color: #dfe7fd;
+}
+
 #img-selen {
     width: 180px;
     height: 250px;
