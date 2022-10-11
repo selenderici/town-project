@@ -1,0 +1,128 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 720px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 343px;
+    background-image: url(images/amsterdam.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 120px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: #d7e3fc;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 8px;
+    text-shadow: 0 0 6px black;
+}
+
+h3 {
+    background-color: #abc4ff;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 8px;
+    text-shadow: 0 0 2px black;
+}
+
+.section {
+    height: 350px;
+    margin: 0 auto;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+
+}
+
+.section-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+}
+
+.preview {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 14px;
+}
+
+#facts, #top-museums {
+    background-color: #e2ece9;
+}
+
+#must, #favorite-rest {
+    background-color: #fff1e6;
+}
+
+#guide {
+    background-color: #F0EFEB;
+    padding: 50px 135px;
+}
+
+#card {
+    width: 450px;
+    height: 250px;
+    background-color: #CDDAFD;
+    padding: 20px 10px; 
+    display: flex;
+    border-radius: 5px;
+    border-bottom: 7px solid #757bc8;
+    border-top: 2px solid #757bc8;
+}
+
+#img-selen {
+    width: 180px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+#card-info {
+    margin: 30px 20px;
+}
+
+h5 {
+    font-weight: 500;
+    font-style: italic;
+}
+
+#guide-name {
+    font-weight: 700;
+    font-size: 15px
+}
+
+#footer {
+    height: 50px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 5px; 
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+
+}
